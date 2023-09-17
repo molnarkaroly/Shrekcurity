@@ -6,3 +6,4 @@ function shrekLoad(){
         document.getElementById('shrek').src="képek/shrek_home.png";
     }
 }
+
