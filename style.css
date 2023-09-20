@@ -11,10 +11,10 @@
     line-height: 80px;
 }
 .nav-link:hover{
-    color: #00FF19;
+    color: #10ee31;
 }
 .active{
-    color: #00FF19;
+    color: #10ee31;
 }
 body{
     background-color: #26373A;
@@ -31,7 +31,7 @@ body{
     color: #ABF5FF;
 }
 .tGreen{
-    color: #00FF19;
+    color: #10ee31;
 }
 
 
@@ -55,7 +55,8 @@ html, body {
   body {
       background: linear-gradient(-45deg, #002e36, #002c2c, #003525, #012400);
       background-size: 400% 400%;
-      animation: gradient 20s ease infinite;
+      animation: gradient 5s ease infinite;
+      
   }
   
   @keyframes gradient {
@@ -68,4 +69,27 @@ html, body {
       100% {
           background-position: 0% 50%;
       }
+  }
+
+
+  .h1c{
+    font-size: 25px;
+    color: #10ee31;
+  }
+  
+  .tudnikéne{
+    color: #ABF5FF;
+    font-size: 20px;
+  }
+  
+  .tudnivalók{
+    width:90% ;
+    padding-left: 10%;
+    
+  }
+
+  .lapcím{
+    color: #10ee31;
+    font-size: 40px;
+    padding-top: 3%;
   }
