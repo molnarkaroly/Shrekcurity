@@ -1,0 +1,570 @@
+
+
+  
+  .jelen{
+    color:#0099c6;
+  }
+  
+  .flap{
+    padding-top: 2px;
+   
+    
+  }
+  
+  .flaplogo_1{
+    padding-left: 450px;
+  }
+  
+ 
+  
+    .sup_kuld {
+      background-color:#16f050;
+      border-radius:28px;
+      border:1px solid #18ab29;
+      display:inline-block;
+      cursor:pointer;
+      color:#000000;
+      font-family:Arial;
+      font-size:25px;
+      padding:15px 50px;
+      text-decoration:none;
+      text-shadow:0px 1px 0px #2f6627;
+    }
+  
+    .kuld_sup_butt{
+      padding-left: 10%;
+    }
+  
+    .sup_kuld:hover {
+      background-color:#5cbf2a;
+    }
+    .sup_kuld:active {
+      position:relative;
+      top:1px;
+    }
+    
+ 
+  */
+  .flap{
+      background-image: url("shwin.jpg");
+      height:920px;
+      background-size: cover;
+  background-size: 100%;
+  border-color: #26373A;
+  
+  }
+  
+  
+  .Cégeknek {
+      background-color:#44c767;
+      border-radius:20px;
+      cursor:pointer;
+      color:#ffffff;
+      font-family:Trebuchet MS;
+      font-size:65px;
+      padding:15px 44px;
+  }
+  .Cégeknek:hover {
+      background-color:#479620;
+  }
+  .Cégeknek:active {
+      top:1px;
+  }
+  
+  .otthonra {
+      background-color:#44bec7;
+      border-radius:20px;
+      cursor:pointer;
+      color:#ffffff;
+      font-family:Trebuchet MS;
+      font-size:65px;
+      padding:15px 44px;
+  }
+  .otthonra:hover {
+      background-color:#2ab3bd;
+  }
+  .otthonra:active {
+      top:1px;
+  }
+  
+  ::-webkit-scrollbar {
+      width: 3px;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: #26373A;
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: rgb(0, 253, 13);
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
+  
+    .címothon_flap{
+      color: #10ee31;
+      font-size: 40px;
+      padding-left: 10%;
+    }
+  
+    .sh_o_bev{
+      color: #2ab3bd;
+      font-size: 30px;
+    }
+  
+    .sh_o_bev_div{
+      padding-left: 12%;
+      width: 65%;
+    }
+  
+    .sh_o_flap_li1{
+      color: #2ab3bd;
+      font-size: 30px;
+      list-style-image: url("sh_list_icon.png") ;
+    }
+  
+    .sh_o_flap_li2{
+      color: #2ab3bd;
+      font-size: 30px;
+      list-style-image: url("png_shrek_76605.png") ;
+    }
+  
+  
+  .sh_o_flap_li1_1{
+    color: #2ab3bd;
+    font-size: 30px;
+    list-style-image: url("2512391.png");
+  }
+  
+  .sh_o_flap_li2_1{
+    color: #2ab3bd;
+    font-size: 30px;
+    list-style-image: url("search_sh.png");
+  }
+  
+  .sh_o_flap_li3_1{
+    color: #2ab3bd;
+    font-size: 30px;
+    list-style-image: url("download.png");
+  }
+  
+  .center{
+    text-align: center;
+  }
+  
+  .flapocsat{
+    padding-right: 10%;
+    font-size: 40px;
+  color: #10ee31;
+  }
+  
+  .sh_o_box{
+    height: 200px;
+    padding: 55px;
+  
+  
+  }
+  
+  .sh_c_box{
+    height: 200px;
+    padding: 55px;
+    
+  }
+  
+  .shrek_o_table{
+    padding-left: 400px;
+  }
+  
+  
+  .boxcim{
+    color: #2ab3bd;
+    font-size: 30px;
+  }
+  
+  
+  .shrek_c_table{
+    padding-left: 400px;
+  }
+  
+  .fb9 {
+    border: 1px solid #3366FF;
+    background-color: #B3C6FF;
+    width:150px;
+    height:30px;
+  }
+  
+  
+  .sup_bev{
+    font-size: 25px;
+    color: #44bec7;
+   
+  }
+  
+  .input-sup{
+    border-radius: 20px;
+    width: 40%;
+    height: 30px;
+  }
+  
+  
+  
+  @media only screen and (min-width: 868px) { 
+    .uzenetbox_sup{
+      width: 600px;
+      height: 150px;
+      border-radius: 20px;
+    
+    }
+  }
+  
+  @media only screen and (max-width: 868px) { 
+    .uzenetbox_sup{
+      width: 400px;
+      height: 90px;
+      border-radius: 20px;
+    
+    }
+  }
+  
+  .h1c{
+    font-size: 45px;
+    color: #10ee31;
+  }
+  
+  .tudnikéne{
+    color: #44bec7;
+    font-size: 40px;
+  }
+  
+  .tudnivalók{
+    width:80% ;
+    padding-left: 10%;
+    
+  }
+  
+  .sh_fizes{
+    text-align: center;
+    padding-right: 8%;
+  }
+  
+  .icon1{
+    padding-left: 400px;
+  }
+  
+  .pay{
+    background-color: #0000002c;
+    width: 100%;
+  }
+  
+  .input-pay{
+    border-radius: 20px;
+    width: 20%;
+    font-size: larger;
+    height: 25px;
+    text-align: center;
+    padding-right: 50px;
+  }
+  
+  
+  .sh_fizess_img{
+    border-radius: 40px;
+  }
+  
+  .rpaymentimg{
+    text-align: right;
+    padding-right: 100px;
+    height: 200px;
+  }
+  
+  .payicon{
+    width: 300px;
+  }
+  
+  
+  .td_fiz_tab{
+    padding: 5px;
+  }
+  
+  .cardnumbertext_1{
+    text-align: left;
+  }
+  
+  table.topazCells {
+    border: 4px solid #26373A;
+    background-color: #26373A;
+    width: 400px;
+    text-align: center;
+    border-collapse: collapse;
+  
+  }
+  table.topazCells td, table.topazCells th {
+    border: 0px solid #555555;
+    padding: 4px 10px;
+    
+  
+  }
+  table.topazCells tbody td {
+    font-size: 30px;
+    font-weight: bold;
+    color: #03df2b;
+    padding-left: 250px;
+    padding-bottom: 5%;
+  
+  
+  }
+  table.topazCells tfoot td {
+    font-size: 18px;
+  
+  }
+  table.topazCells tfoot .links {
+    text-align: right;
+  
+  }
+  table.topazCells tfoot .links a{
+    display: inline-block;
+    background: #FFFFFF;
+    color: #A43152;
+    padding: 2px 8px;
+    border-radius: 5px;
+  
+  }
+  
+  .table_c1{
+    padding-left: 0%;
+  }
+  
+  .table_c3{
+    padding-left: 560px;
+  }
+  
+  .vasarlasok {
+      background-color:#05ed43;
+      border-radius:23px;
+      display:inline-block;
+      cursor:pointer;
+      color:#000000;
+      font-family:Arial;
+      font-size:27px;
+      font-weight:bold;
+      padding:18px 40px;
+      text-decoration:none;
+  }
+  .vasarlasok:hover {
+      background-color:#42bd00;
+  }
+  .vasarlasok:active {
+      position:relative;
+      top:1px;
+  }
+  
+  .os_tab_pad{
+    padding-left: 560px;
+  }
+  
+  .otthonra_Cégeknek_button{
+    text-align: center;
+    
+  }
+  
+  .c_o_but{
+    padding: 250px;
+  }
+  
+  .index_c_o_but_hely{
+    padding-left: 430px;
+  }
+  
+  .end_ot_bot{
+    padding-bottom: 450px;
+  }
+  
+  
+  .end_ot_el{
+    padding-left: 35%;
+  }
+  
+  .cent{
+    padding-left: 15%;
+  }
+  
+  
+  
+  @media only screen and (max-width: 868px) { 
+    .end_ot_el{
+      width: 150px;
+       padding-left: 1%;
+  
+    
+    }
+    .cent{
+      padding-left: 120%;
+    }
+  
+  }
+  
+  .animate__animated.animate__bounce {
+    --animate-duration: 1.5s;
+  }
+  
+  /* This changes all the animations globally */
+  :root {
+    --animate-duration: 600ms;
+    --animate-delay: 0.8s;
+  }
+  
+  .gombok:hover {
+    animation: gombok 0.5s ease 0s 1 reverse forwards;
+  }
+  
+  @keyframes gombok {
+      0% {
+          transform: scaleX(1);
+      }
+  
+      100% {
+          transform: scaleX(0.4);
+      }
+  }
+  
+  .white_bg{
+    background-color: #1bd9ff;
+    text-align: center;
+  }
+  
+  .indextext_f{
+    font-size: 65px;
+  }
+  
+  .indextext_t{
+    font-size: 25px
+  }
+  
+  
+  
+  @media (max-width: 868px) { 
+    .topazCells thead{
+      width: 400px;
+      height: 90px;
+      border-radius: 20px;
+    
+    }
+  }
+  
+  @media only screen and (min-width: 868px) { 
+    .table{
+      width: 600px;
+      height: 150px;
+      border-radius: 20px;
+    
+    }
+  }
+  
+  @media only screen and (max-width: 868px) { 
+    .table{
+      width: 400px;
+      height: 90px;
+      border-radius: 20px;
+    
+    }
+  }
+  
+  @media only screen and (max-width: 1200px) { 
+  .shrexy_img{
+    width: 75%;
+  }
+  
+  .indextext_f{
+    font-size: 25px;
+  }
+  
+  .indextext_t{
+    font-size: 25px;
+  
+  }
+  
+  
+  
+  
+  }
+  @media only screen and (max-width: 800px) { 
+    .indextext_t{
+      font-size: 20px;
+      
+    }
+  
+   .table_c1{
+    padding-left: 0%;
+   }
+  
+   .topazCells{
+    padding-left: 0%;
+  }
+    
+    table{
+      padding-left: 0%;
+    }
+  
+    td{
+      padding-left: 0%;
+    }
+  
+    tr{
+      padding-left: 0%;
+  
+    }
+  
+  }  
+  
+  .indexanim_img :hover{
+    animation: indexanim_img 2s ease 0s 1 normal forwards;
+  
+  }
+  @keyframes indexanim_img {
+      0%,
+      100% {
+          transform: rotate(0deg);
+          transform-origin: 50% 50%;
+      }
+  
+      10% {
+          transform: rotate(8deg);
+      }
+  
+      20%,
+      40%,
+      60% {
+          transform: rotate(-10deg);
+      }
+  
+      30%,
+      50%,
+      70% {
+          transform: rotate(10deg);
+      }
+  
+      80% {
+          transform: rotate(-8deg);
+      }
+  
+      90% {
+          transform: rotate(8deg);
+      }
+  }
+  
+  .menu-logo :hover {
+    animation: indexanim_img 2s ease 0s 1 normal forwards;
+  
+  }
+  
+  .hide{
+    color: #26373A;
+  }
+  
+  .table-responsive{
+    padding-left: 0%;
+  }

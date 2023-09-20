@@ -11,10 +11,10 @@
     line-height: 80px;
 }
 .nav-link:hover{
-    color: #00FF19;
+    color: #10ee31;
 }
 .active{
-    color: #00FF19;
+    color: #10ee31;
 }
 body{
     background-color: #26373A;
@@ -34,7 +34,7 @@ body{
     color: #ABF5FF;
 }
 .tGreen{
-    color: #00FF19;
+    color: #10ee31;
 }
 
 .div-center{
@@ -109,3 +109,70 @@ html, body {
           background-position: 0% 50%;
       }
   }
+
+
+  .h1c{
+    font-size: 25px;
+    color: #10ee31;
+  }
+  
+  .tudnikéne{
+    color: #ABF5FF;
+    font-size: 20px;
+  }
+  
+  .tudnivalók{
+    width:90% ;
+    padding-left: 10%;
+    
+  }
+
+  .lapcím{
+    color: #10ee31;
+    font-size: 40px;
+    padding-top: 3%;
+  }
+
+  .input-sup{
+    border-radius: 20px;
+    width: 40%;
+    height: 30px;
+  }
+
+  .sup_bev{
+    font-size: 25px;
+    color: #44bec7;
+   
+  }
+  
+
+  .form-label{
+    font-size: 35px;
+    color: #ABF5FF;
+
+  }
+
+  
+  .sup_kuld {
+	background-color:#10ee31;
+	border-radius:42px;
+	border:2px solid #10ee319c;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:24px;
+	font-weight:bold;
+	padding:11px 25px;
+	text-decoration:none;
+	text-shadow:0px 0px 5px #138f00;
+    text-align: center;
+    margin-bottom:7% ;
+}
+.sup_kuld:hover {
+	background-color:#00c407;
+}
+.sup_kuld:active {
+	position:relative;
+	top:1px;
+}
