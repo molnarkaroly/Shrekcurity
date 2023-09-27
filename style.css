@@ -121,7 +121,16 @@ html, body {
       background: linear-gradient(-45deg, #002e36, #002c2c, #003525, #012400);
       background-size: 400% 800%;
       animation: gradient 5s ease infinite;
+      cursor: url("./képek/alapcursor.png"), auto;
+      
   }
+
+  button:hover{
+    cursor: url("./képek/output-onlinepngtools.png"), auto;
+}
+  a:hover{
+    cursor: url("./képek/output-onlinepngtools.png"), auto;
+}
   
   @keyframes gradient {
       0% {
@@ -156,6 +165,8 @@ html, body {
     color: #10ee31;
     font-size: 40px;
     padding-top: 3%;
+    font-weight: bold;
+    text-decoration: underline;
   }
 
   .input-sup{
