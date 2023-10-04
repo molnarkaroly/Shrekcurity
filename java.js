@@ -1,3 +1,30 @@
+function planClicked(num){
+    if (num == 1) {
+        localStorage.setItem("plan", "lite")
+        console.log("xd")
+    }
+    else if (num == 2) {
+        localStorage.setItem("plan", "family")
+    }
+    else {
+        localStorage.setItem("plan", "enterprise")
+    }
+}
+
+function csomagChange(){
+    if (localStorage.getItem("plan") == "lite"){
+        document.getElementById('csomagTitle').textContent = "Shrekcurity Lite";
+    }
+    else if (localStorage.getItem("plan") == "family"){
+        document.getElementById('csomagTitle').textContent = "Shrekcurity Family";
+    }
+    else {
+        document.getElementById('csomagTitle').textContent = "Shrekcurity Enterprise";
+    }
+}
+
+
+
 function shrekLoad(){
     var randy = Math.floor(Math.random()*10);
     if (randy == 2){
