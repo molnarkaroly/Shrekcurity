@@ -9,7 +9,7 @@
     <title>Shrekcurity - Főoldal</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body onload="shrekLoad();">
+<body onload="csomagChange();">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,27 +26,33 @@
         </div>
       </nav>
 
-      <div class="container text-center div-center">
-        <div class="row">
-          <div class="col-lg-7">
-            <h2 class="tLeft tGreen lapcím">Shrekcurity</h2>
-            <p class="tLeft t20 tBlue">              
-              A Shrekcurity egy IT biztonsági technikai cég, amely teljes körű szolgáltatásokat kínál kis- és nagyvállalatoknak, valamint kormányzati szerveknek és magán embereknek is. A cég a legújabb technológiákat használja az IT biztonsági megoldásokhoz, és több mint 10 éves tapasztalattal rendelkezik a területen.
-              <br><br>
-
-              A Shrekcurity célja, hogy segítse ügyfeleit az IT biztonsági kockázatok csökkentésében. A cég szolgáltatásai közé tartozik a vírusok és malware elleni védelem, a hálózati biztonság, az adatvédelem és a biztonsági auditok.
-              <br><br>
-
-              A Shrekcurity megbízható és professzionális partner az IT biztonság területén. A cég célja, hogy ügyfelei számára a lehető legmagasabb szintű biztonságot biztosítsa.
-              <br><br>
-
-          </div>
-          <div class="col-lg-5">
-            <img id="shrek" class="image-shrek">
-          </div>
-        </div>
-      </div>
-
+      <form action="">
+        <label class="formText">Teljes Név</label><br>
+        <input type="text">
+        <br> <br>
+        <label class="formText">Lakcím</label><br>
+        <input type="text">
+        <br><br>
+        <label class="formText">Telefonszám</label><br>
+        <input type="tel">
+        <br><br>
+        <label class="formText">E-mail</label><br>
+        <input type="email">
+        <br><br>
+        <label class="formText">Bankkártya</label><br>
+        <table>
+          <tr>
+            <td><label class="formTextSmall">Kártyaszám</label></td>
+            <td><label class="formTextSmall">CVC</label></td>
+            <td><label class="formTextSmall">Lejárat</label></td>
+          </tr>
+          <tr>
+            <td><input type="number" size="32" placeholder="5283778897776397"></td>
+            <td><input type="number" min="100" max="999" placeholder="999" style="width: 60px;"></td>
+            <td><input type="text" maxlength="5" size="6" placeholder="03/22"></td>
+          </tr>
+        </table>
+      </form>
 
       <!--FOOTER-->
       <footer class="bg-light text-center text-lg-start">

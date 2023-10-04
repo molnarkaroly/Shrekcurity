@@ -67,7 +67,10 @@ body{
     font-size: large;
 }
 .list-shrek li{
-    list-style-type: square;
+    list-style-type: none;
+}
+.list-image{
+    height: 40px;
 }
 .table-shrek{
     margin: auto;
@@ -100,6 +103,15 @@ body{
 }
 .subButton:hover{
     background-color: #ABF5FF;
+}
+
+.formText{
+    color: #ABF5FF;
+    font-size: 25px;
+}
+.formTextSmall{
+    color: #ABF5FF;
+    font-size: 15px;
 }
 
 footer div{
