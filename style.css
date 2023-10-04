@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 .scnav{
     background-color: #304144 !important;
 }
@@ -13,13 +19,23 @@
 .nav-link:hover{
     color: #10ee31;
 }
+.logoAnimation{
+    animation: logoEnter 2s ease 0s 1 normal forwards;
+}
+@keyframes logoEnter {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
 .active{
     color: #10ee31;
 }
-body{
-    background-color: #26373A;
-}
-
 
 .tLeft{
     text-align: left;
@@ -74,10 +90,19 @@ body{
     height: 60%;
 }
 
+.subButton{
+    background-color: #00FF19;
+    border-radius: 10px;
+    border-width: 0px;
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+}
+.subButton:hover{
+    background-color: #ABF5FF;
+}
 
 footer div{
-    position: fixed;
-    bottom: 0;
     width: 100%;
 }
 footer div{
@@ -94,9 +119,18 @@ html, body {
   
   body {
       background: linear-gradient(-45deg, #002e36, #002c2c, #003525, #012400);
-      background-size: 400% 400%;
+      background-size: 400% 800%;
       animation: gradient 5s ease infinite;
+      cursor: url("./képek/alapcursor.png"), auto;
+      
   }
+
+  button:hover{
+    cursor: url("./képek/output-onlinepngtools.png"), auto;
+}
+  a:hover{
+    cursor: url("./képek/output-onlinepngtools.png"), auto;
+}
   
   @keyframes gradient {
       0% {
@@ -131,6 +165,8 @@ html, body {
     color: #10ee31;
     font-size: 40px;
     padding-top: 3%;
+    font-weight: bold;
+    text-decoration: underline;
   }
 
   .input-sup{
