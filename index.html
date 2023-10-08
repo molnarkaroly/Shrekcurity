@@ -9,7 +9,7 @@
     <title>Shrekcurity - Főoldal</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body onload="shrekLoad();">
+<body onload="shrekLoad(); animateTitle (); restoreTitle();">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,12 +26,11 @@
         </div>
       </nav>
 
-      
       <div class="container text-center div-center">
         <div class="row">
           <div class="col-lg-7">
-            <h2 class="tLeft tGreen lapcím">Shrekcurity</h2>
-            <p class="tLeft t20 tBlue">              
+            <h2 class="tLeft tGreen lapcím fade-in-cim">Shrekcurity</h2>
+            <p class="tLeft t20 tBlue fade-in-text">              
               A Shrekcurity egy IT biztonsági technikai cég, amely teljes körű szolgáltatásokat kínál kis- és nagyvállalatoknak, valamint kormányzati szerveknek és magán embereknek is. A cég a legújabb technológiákat használja az IT biztonsági megoldásokhoz, és több mint 10 éves tapasztalattal rendelkezik a területen.
               <br><br>
 
@@ -42,7 +41,7 @@
               <br><br>
 
           </div>
-          <div class="col-lg-5">
+          <div class="col-lg-5 fade-in-image">
             <img id="shrek" class="image-shrek">
           </div>
         </div>

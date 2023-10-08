@@ -1,3 +1,30 @@
+function planClicked(num){
+    if (num == 1) {
+        localStorage.setItem("plan", "lite")
+        console.log("xd")
+    }
+    else if (num == 2) {
+        localStorage.setItem("plan", "family")
+    }
+    else {
+        localStorage.setItem("plan", "enterprise")
+    }
+}
+
+function csomagChange(){
+    if (localStorage.getItem("plan") == "lite"){
+        document.getElementById('csomagTitle').textContent = "Shrekcurity Lite";
+    }
+    else if (localStorage.getItem("plan") == "family"){
+        document.getElementById('csomagTitle').textContent = "Shrekcurity Family";
+    }
+    else {
+        document.getElementById('csomagTitle').textContent = "Shrekcurity Enterprise";
+    }
+}
+
+
+
 function shrekLoad(){
     var randy = Math.floor(Math.random()*10);
     if (randy == 2){
@@ -24,7 +51,7 @@ function supportbajod(){
     if (randy == 2){
         document.getElementById('agybaj').setAttribute('placeholder', 'Írd ide mi a bajod (az agybajon kívül :D)');
     }else{
-        document.getElementById('agybaj').setAttribute('placeholder', "Kérem írja le mi aproblémája, és mi probálunk minnél hamarabb segíteni megoldani azt :)");
+        document.getElementById('agybaj').setAttribute('placeholder', "Kérem írja le mi a problémája, és mi probálunk minnél hamarabb segíteni, megoldani azt :)");
     }
 }
 
@@ -36,3 +63,22 @@ function tudastarshrek(){
         document.getElementById('mindentud').textContent="Tudástár";
     }
 }
+
+
+function reveal() {
+    var reveals = document.querySelectorAll(".reveal");
+  
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      var elementVisible = 150;
+  
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("active");
+      } else {
+        reveals[i].classList.remove("active");
+      }
+    }
+  }
+
+window.addEventListener("scroll", reveal);
