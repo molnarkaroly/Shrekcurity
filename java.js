@@ -51,7 +51,7 @@ function supportbajod(){
     if (randy == 2){
         document.getElementById('agybaj').setAttribute('placeholder', 'Írd ide mi a bajod (az agybajon kívül :D)');
     }else{
-        document.getElementById('agybaj').setAttribute('placeholder', "Kérem írja le mi aproblémája, és mi probálunk minnél hamarabb segíteni megoldani azt :)");
+        document.getElementById('agybaj').setAttribute('placeholder', "Kérem írja le mi a problémája, és mi probálunk minnél hamarabb segíteni, megoldani azt :)");
     }
 }
 
@@ -63,3 +63,22 @@ function tudastarshrek(){
         document.getElementById('mindentud').textContent="Tudástár";
     }
 }
+
+
+function reveal() {
+    var reveals = document.querySelectorAll(".reveal");
+  
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      var elementVisible = 150;
+  
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("active");
+      } else {
+        reveals[i].classList.remove("active");
+      }
+    }
+  }
+
+window.addEventListener("scroll", reveal);
