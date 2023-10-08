@@ -318,3 +318,17 @@ html{
     transform: translateY(0);
     opacity: 1;
 }
+
+  /* For animation transition */
+  .reveal_tab {
+    position: relative;
+    transform: translateY(1px);
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+.reveal_tab.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
