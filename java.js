@@ -51,7 +51,7 @@ function supportbajod(){
     if (randy == 2){
         document.getElementById('agybaj').setAttribute('placeholder', 'Írd ide mi a bajod (az agybajon kívül :D)');
     }else{
-        document.getElementById('agybaj').setAttribute('placeholder', "Kérem írja le mi aproblémája, és mi probálunk minnél hamarabb segíteni megoldani azt :)");
+        document.getElementById('agybaj').setAttribute('placeholder', "Kérem írja le mi a problémája, és mi probálunk minnél hamarabb segíteni, megoldani azt :)");
     }
 }
 
@@ -63,3 +63,5 @@ function tudastarshrek(){
         document.getElementById('mindentud').textContent="Tudástár";
     }
 }
+
+
