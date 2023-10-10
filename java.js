@@ -1,7 +1,6 @@
 function planClicked(num){
     if (num == 1) {
         localStorage.setItem("plan", "lite")
-        console.log("xd")
     }
     else if (num == 2) {
         localStorage.setItem("plan", "family")
