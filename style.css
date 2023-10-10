@@ -15,12 +15,18 @@ body{
     background-color: #304144 !important;
     color: #ABF5FF;
     line-height: 80px;
+    cursor: url("./képek/output-onlinepngtools.png"), auto !important;
+
 }
 .nav-link:hover{
     color: #10ee31;
+    cursor: url("./képek/output-onlinepngtools.png"), auto !important;
+
 }
 .logoAnimation{
     animation: logoEnter 2s ease 0s 1 normal forwards;
+    cursor: url("./képek/output-onlinepngtools.png"), auto !important;
+
 }
 @keyframes logoEnter {
 	0% {
@@ -100,9 +106,12 @@ body{
     color: black;
     text-decoration: none;
     padding: 5px 10px 5px 10px;
+
 }
 .subButton:hover{
     background-color: #ABF5FF;
+    cursor: url("./képek/output-onlinepngtools.png"), auto !important;
+
 }
 
 .formText{
@@ -312,11 +321,14 @@ html{
     transform: translateY(50px);
     opacity: 0;
     transition: 2s all ease;
+    z-index: -1;
 }
 
 .reveal.active {
     transform: translateY(0);
     opacity: 1;
+    z-index: -1;
+
 }
 
   /* For animation transition */
@@ -325,10 +337,33 @@ html{
     transform: translateY(1px);
     opacity: 0;
     transition: 2s all ease;
+    z-index: -1;
+
 }
 
 .reveal_tab.active {
     transform: translateY(0);
     opacity: 1;
+    z-index: -1;
+
 }
+
+.cursora:hover{
+    cursor: url("./képek/output-onlinepngtools.png"), auto !important;
+    height: auto;
+
+
+}
+
+.support{
+    cursor: url("./képek/output-onlinepngtools.png"), auto !important;
+
+
+}
+
+.support:hover{
+    cursor: url("./képek/output-onlinepngtools.png"), auto !important;
+
+}
+
 
