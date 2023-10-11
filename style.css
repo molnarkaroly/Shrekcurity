@@ -15,12 +15,27 @@ body{
     background-color: #304144 !important;
     color: #ABF5FF;
     line-height: 80px;
+    cursor: url("./képek/output-onlinepngtools.png"), auto !important;
+
 }
 .nav-link:hover{
     color: #10ee31;
+    cursor: url("./képek/output-onlinepngtools.png"), auto !important;
+
 }
+/*Overwrite*/
+.navbar-toggler{
+    color: white !important;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.navbar-toggler-icon{
+    background-image: url(burger_icon.svg);
+}
+
 .logoAnimation{
     animation: logoEnter 2s ease 0s 1 normal forwards;
+    cursor: url("./képek/output-onlinepngtools.png"), auto !important;
+
 }
 @keyframes logoEnter {
 	0% {
@@ -100,9 +115,46 @@ body{
     color: black;
     text-decoration: none;
     padding: 5px 10px 5px 10px;
+
 }
 .subButton:hover{
     background-color: #ABF5FF;
+    cursor: url("./képek/output-onlinepngtools.png"), auto !important;
+
+}
+
+.megrendeles{
+    color: #00FF19;
+    padding-bottom: 10px;
+}
+.formDiv{
+    margin: 0 auto;
+    padding: 100px;
+    padding-left: 10%;
+}
+@media (max-width: 1000px) {
+    .buyImage{
+        visibility: hidden;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 200px;
+        margin-right: 100px;
+        width: 5px;
+    }
+
+
+}
+@media (min-width: 1001px) {
+    .buyImage{
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 200px;
+        margin-right: 100px;
+        width: 500px;
+    }
+
 }
 
 .formText{
@@ -112,6 +164,29 @@ body{
 .formTextSmall{
     color: #ABF5FF;
     font-size: 15px;
+}
+.inputZone{
+    border-radius: 2px 10px 10px 2px;
+    background-color: #abf5ff85;
+    border: none;
+    width: 260px;
+}
+.inputZone2{
+    border-radius: 5px;
+    background-color: #74ff82b0;
+    border: none;
+}
+form{
+    padding-left: 30px;
+}
+.formButton{
+    border: none;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: #00FF19;
+}
+.formButton:hover{
+    background-color: #ABF5FF;
 }
 
 footer div{
@@ -312,11 +387,14 @@ html{
     transform: translateY(50px);
     opacity: 0;
     transition: 2s all ease;
+    z-index: -1;
 }
 
 .reveal.active {
     transform: translateY(0);
     opacity: 1;
+    z-index: -1;
+
 }
 
   /* For animation transition */
@@ -325,10 +403,35 @@ html{
     transform: translateY(1px);
     opacity: 0;
     transition: 2s all ease;
+
 }
 
 .reveal_tab.active {
     transform: translateY(0);
     opacity: 1;
+
+}
+
+
+.support{
+    cursor: url("./képek/output-onlinepngtools.png"), auto !important;
+
+
+}
+
+.support:hover{
+    cursor: url("./képek/output-onlinepngtools.png"), auto !important;
+
+}
+
+
+.vasarlas{
+    text-decoration: none;
+    color: #002c2c;
+}
+
+.vasarlas:hover{
+    color: #002e36;
+
 }
 

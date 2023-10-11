@@ -8,6 +8,7 @@
     <script src="java.js"></script>
     <title>Shrekcurity - Főoldal</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body onload="csomagChange();">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -26,18 +27,20 @@
         </div>
       </nav>
 
+      <div class="formDiv">
+      <h2 class="megrendeles" id="csomagTitle">Megrendelés</h2>
       <form action="">
         <label class="formText">Teljes Név</label><br>
-        <input type="text">
+        <input class="inputZone" type="text">
         <br> <br>
         <label class="formText">Lakcím</label><br>
-        <input type="text">
+        <input class="inputZone" type="text" placeholder="iranyitoszam, varos, utca, házszám">
         <br><br>
         <label class="formText">Telefonszám</label><br>
-        <input type="tel">
+        <input class="inputZone" type="tel" placeholder="+36 20 123 4567">
         <br><br>
         <label class="formText">E-mail</label><br>
-        <input type="email">
+        <input class="inputZone" type="email" placeholder="name@email.com">
         <br><br>
         <label class="formText">Bankkártya</label><br>
         <table>
@@ -47,13 +50,25 @@
             <td><label class="formTextSmall">Lejárat</label></td>
           </tr>
           <tr>
-            <td><input type="number" size="32" placeholder="5283778897776397"></td>
-            <td><input type="number" min="100" max="999" placeholder="999" style="width: 60px;"></td>
-            <td><input type="text" maxlength="5" size="6" placeholder="03/22"></td>
+            <td><input class="inputZone2" type="number" size="32" placeholder="5283778897776397"></td>
+            <td><input class="inputZone2" type="number" min="100" max="999" placeholder="999" style="width: 60px;"></td>
+            <td><input class="inputZone2" type="text" maxlength="5" size="6" placeholder="03/22"></td>
           </tr>
         </table>
+        <br>
+       <button class="formButton" type="submit"><a class="vasarlas" href="index.html">Vásárlás</a></button>
       </form>
+      </div>
 
+      <img src="képek/shrekcurity_2-03.png" class="buyImage">
+
+      <style>
+        footer div{
+          position: fixed;
+          bottom: 0;
+          cursor: url("./képek/output-onlinepngtools.png"), auto !important;
+        }
+      </style>
       <!--FOOTER-->
       <footer class="bg-light text-center text-lg-start">
         <div class="text-center p-3">
