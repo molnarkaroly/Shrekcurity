@@ -101,6 +101,19 @@ body{
     border: 1px solid #00FF19;
     border-style: dashed;
 }
+.cardHead{
+    text-align: center;
+    font-size: x-large;
+    color: #ABF5FF;
+}
+.cardList{
+    color: #00FF19;
+    list-style-type: none !important;
+    padding-right: 30px;
+}
+.cardMargin{
+    margin: 50px;
+}
 .noborder{
     border-width: 0px !important;
 }
@@ -132,7 +145,7 @@ body{
     padding: 100px;
     padding-left: 10%;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
     .buyImage{
         visibility: hidden;
         position: absolute;
@@ -143,14 +156,14 @@ body{
         width: 5px;
     }
 }
-@media (min-width: 1001px) {
+@media (min-width: 1101px) {
     .buyImage{
         position: absolute;
         top: 0;
         right: 0;
-        margin-top: 200px;
+        margin-top: 100px;
         margin-right: 100px;
-        width: 500px;
+        width: 600px;
     }
 }
 
